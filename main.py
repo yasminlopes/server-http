@@ -1,5 +1,5 @@
 from socket import (socket, AF_INET, SOCK_STREAM, SO_REUSEADDR, SOL_SOCKET)
-
+#localhsot, port 1234
 HOST, PORT = "127.0.0.1", 1234
 running =  b"HTTP/1.1 200 OK\n\nHello World!"
 
